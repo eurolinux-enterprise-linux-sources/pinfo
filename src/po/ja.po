@@ -1,0 +1,319 @@
+# Japanese messages for pinfo.
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Masayuki Hatta <mhatta@gnu.org>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pinfo 0.6.3\n"
+"Report-Msgid-Bugs-To: pinfo-devel@lists.alioth.debian.org\n"
+"POT-Creation-Date: 2006-03-16 17:28+0100\n"
+"PO-Revision-Date: 2001-11-21 17:42+0900\n"
+"Last-Translator: Masayuki Hatta <mhatta@gnu.org>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=euc-jp\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/filehandling_functions.c:469 src/filehandling_functions.c:476
+#, c-format
+msgid "Searching for indirect done"
+msgstr "indirectの検索完了"
+
+#: src/filehandling_functions.c:508 src/filehandling_functions.c:515
+#, c-format
+msgid "Warning: could not find tag table"
+msgstr "警告: タグテーブルが見つかりませんでした"
+
+#: src/filehandling_functions.c:542
+#, c-format
+msgid "Searching for tag table done\n"
+msgstr "タグテーブルの検索完了\n"
+
+#: src/filehandling_functions.c:1212
+#, fuzzy, c-format
+msgid "Error: could not open info file"
+msgstr "エラー: infoファイルが開けませんでした"
+
+#: src/mainfunction.c:144 src/manual.c:975
+msgid "Are you sure you want to print?"
+msgstr "本当に印刷してよろしいですか?"
+
+#: src/mainfunction.c:196 src/manual.c:1020
+msgid "Enter line: "
+msgstr "行を入力: "
+
+#: src/mainfunction.c:237 src/manual.c:1067
+msgid "Enter command: "
+msgstr "コマンドを入力: "
+
+#: src/mainfunction.c:256
+msgid "Operation failed..."
+msgstr "操作に失敗しました..."
+
+#: src/mainfunction.c:292 src/mainfunction.c:554 src/manual.c:1120
+#, fuzzy
+msgid "Enter regular expression: "
+msgstr "正規表現を入力: "
+
+#: src/mainfunction.c:524 src/mainfunction.c:622 src/manual.c:1198
+#, fuzzy
+msgid "Search string not found..."
+msgstr "警告: タグテーブルが見つかりませんでした...\n"
+
+#: src/mainfunction.c:581 src/manual.c:1155
+msgid "Invalid regular expression;"
+msgstr ""
+
+#: src/mainfunction.c:583 src/manual.c:1157
+msgid "Press any key to continue..."
+msgstr ""
+
+#: src/mainfunction.c:651
+msgid "Enter node name: "
+msgstr "ノード名を入力: "
+
+#: src/mainfunction.c:727
+#, c-format
+msgid "Node %s not found"
+msgstr "ノード %s は見つかりませんでした"
+
+#: src/mainfunction.c:1185 src/manual.c:1548
+msgid "Are you sure you want to quit?"
+msgstr "本当に終了してよろしいですか?"
+
+#: src/manual.c:315
+#, c-format
+msgid "Error: Cannot call man command.\n"
+msgstr "エラー: manコマンドが呼び出せません。\n"
+
+#: src/manual.c:324
+#, c-format
+msgid "Error: No manual page found either.\n"
+msgstr "エラー: どのマニュアルページも見つかりませんでした。\n"
+
+#: src/manual.c:327
+#, fuzzy, c-format
+msgid "Apropos pages:\n"
+msgstr "適切なページ:\n"
+
+#: src/manual.c:370
+msgid "Calling gunzip for"
+msgstr "gunzipを呼び出し中: "
+
+#: src/manual.c:376
+#, c-format
+msgid "Couldn't call gunzip.\n"
+msgstr "gunzipを呼び出せませんでした。\n"
+
+#: src/manual.c:413
+msgid "IGNORING"
+msgstr "無視"
+
+#: src/manual.c:456
+#, fuzzy, c-format
+msgid "Error: No manual page found\n"
+msgstr "エラー: どのマニュアルページも見つかりませんでした。\n"
+
+#: src/manual.c:461
+#, c-format
+msgid "Calling apropos \n"
+msgstr ""
+
+#: src/manual.c:466
+#, c-format
+msgid "Nothing appropiate\n"
+msgstr ""
+
+#: src/manual.c:989
+msgid "Enter manual name: "
+msgstr "マニュアル名を入力: "
+
+#: src/manual.c:1631 src/video.c:114
+#, c-format
+msgid "Viewing line %d/%d, %d%%"
+msgstr "現在 %d/%d 行目、%d%%"
+
+#: src/manual.c:1633 src/video.c:116
+#, c-format
+msgid "Viewing line %d/%d, 100%%"
+msgstr "現在 %d/%d 行目、100%%"
+
+#: src/parse_config.c:113
+#, c-format
+msgid "Can't open config file!\n"
+msgstr ""
+
+#: src/parse_config.c:163
+#, c-format
+msgid "Parse error in config file on line %d\n"
+msgstr "設定ファイルの %d 行目で解析エラー\n"
+
+#: src/utils.c:122 src/utils.c:178
+#, c-format
+msgid "Virtual memory exhausted\n"
+msgstr "仮想メモリを使い切ってしまいました\n"
+
+#: src/utils.c:232
+#, c-format
+msgid ""
+"Illegal characters in filename!\n"
+"*** %s\n"
+msgstr ""
+"ファイル名に以下の不正なキャラクタが含まれています!\n"
+"*** %s\n"
+
+#: src/utils.c:451
+msgid "yes"
+msgstr "yes"
+
+#: src/utils.c:452
+msgid "no"
+msgstr "no"
+
+#: src/utils.c:720
+#, c-format
+msgid "Couldn't open temporary file\n"
+msgstr ""
+
+#: src/video.c:61
+msgid "File:"
+msgstr "ファイル: "
+
+#: src/video.c:62
+msgid "Node:"
+msgstr "ノード: "
+
+#: src/video.c:63
+msgid "Next:"
+msgstr "次: "
+
+#: src/video.c:64
+msgid "Prev:"
+msgstr "前: "
+
+#: src/video.c:65
+msgid "Up:"
+msgstr "上: "
+
+#: src/pinfo.c:113 src/pinfo.c:198
+#, c-format
+msgid "Looking for man page...\n"
+msgstr "manページを探しています...\n"
+
+#: src/pinfo.c:151
+#, c-format
+msgid "--node option used without argument\n"
+msgstr "--nodeオプションに引数が与えられていません\n"
+
+#: src/pinfo.c:161
+#, fuzzy, c-format
+msgid "--rcfile option used without argument\n"
+msgstr "--nodeオプションに引数が与えられていません\n"
+
+#: src/pinfo.c:172
+#, fuzzy, c-format
+msgid ""
+"Usage:\n"
+"%s [options] [info|manual]\n"
+"Options:\n"
+"-h, --help                            help\n"
+"-v, --version                         version\n"
+"-m, --manual                          use man page\n"
+"-r, --raw-filename                    use raw filename\n"
+"-f, --file                            synonym for -r\n"
+"-a, --apropos                         call apropos if nothing found\n"
+"-p, --plain-apropos                   call only apropos\n"
+"-c, --cut-man-headers                 cut out repeated man headers\n"
+"-l, --long-manual-links               use long link names in manuals\n"
+"-s, --squeeze-manlines                cut empty lines from manual pages\n"
+"-d, --dont-handle-without-tag-table   don't display texinfo pages without "
+"tag\n"
+"                                      tables\n"
+"-t, --force-manual-tag-table          force manual detection of tag table\n"
+"-x, --clear-at-exit                   clear screen at exit\n"
+"    --node=nodename, --node nodename  jump directly to the node nodename\n"
+"    --rcfile=file, --rcfile file      use alternate rcfile\n"
+msgstr ""
+"使い方:\n"
+"%s [オプション] [info|manual]\n"
+"オプション:\n"
+"-h, --help                            ヘルプ\n"
+"-v, --version                         バージョン\n"
+"-m, --manual                          manページを使用\n"
+"-r, --raw-filename                    生のファイル名を使用\n"
+"-f, --file\t\t\t    -rと同じ\n"
+"-a, --apropos                         何も見つからなければaproposを呼ぶ\n"
+"-p, --plain-apropos                   call only apropos\n"
+"-c, --cut-man-headers                 繰り返されたmanヘッダをカット\n"
+"-l, --long-manual-links               マニュアルに長いリンク名を使う\n"
+"-s, --squeeze-manlines                マニュアルページから空行を削除\n"
+"-d, --dont-handle-without-tag-table   タグテーブルの無いtexinfoページを\n"
+"                                      表示しない\n"
+"-t, --force-manual-tag-table          タグテーブルのマニュアル認識を強制\n"
+"-x, --clear-at-exit                   終了時に画面をクリア\n"
+"    --node=nodename, --node nodename  ノードnodenameに直接ジャンプ\n"
+
+#: src/pinfo.c:312
+#, c-format
+msgid "Error: could not open info file, trying manual\n"
+msgstr "エラー: infoファイルを開けませんでした。マニュアルで試しています\n"
+
+#: src/pinfo.c:345
+#, c-format
+msgid "Warning: tag table not found...\n"
+msgstr "警告: タグテーブルが見つかりませんでした...\n"
+
+#: src/pinfo.c:349
+#, c-format
+msgid "Trying to create alternate tag table...\n"
+msgstr "別のタグテーブルを作成しようとしています...\n"
+
+#: src/pinfo.c:354 src/pinfo.c:564
+#, c-format
+msgid "This doesn't look like info file...\n"
+msgstr "これはinfoファイルではないようです...\n"
+
+#: src/pinfo.c:367
+#, c-format
+msgid "Specified node does not exist...\n"
+msgstr "指定されたノードは存在しません...\n"
+
+#: src/pinfo.c:419
+msgid "Tag table is corrupt, trying to fix..."
+msgstr ""
+
+#: src/pinfo.c:420
+msgid "press a key to continue"
+msgstr ""
+
+#: src/pinfo.c:486
+msgid "File not found. Press any key..."
+msgstr "ファイルが見つかりません。何かキーを押して下さい..."
+
+#: src/pinfo.c:506
+#, c-format
+msgid "Unexpected error.\n"
+msgstr "予期せぬエラーです。\n"
+
+#: src/pinfo.c:559
+msgid "Tag table not found. Trying to create alternate..."
+msgstr "タグテーブルが見つかりません。別のを作成しようとしています..."
+
+#: src/pinfo.c:645
+#, c-format
+msgid "Security warning: Unable to get GID of group called: %s\n"
+msgstr "セキュリティ警告: 以下のグループのGIDを得ることができません: %s\n"
+
+#: src/pinfo.c:665
+#, c-format
+msgid "Security warning: Unable to get UID of user called: %s\n"
+msgstr "セキュリティ警告: 以下のユーザのUIDを取得することができません: %s\n"
+
+#~ msgid "Are you sure to print?"
+#~ msgstr "本当に印刷してよろしいですか?"
+
+#~ msgid "Warning: could not find tag table\n"
+#~ msgstr "警告: タグテーブルが見つかりませんでした\n"
+
+#~ msgid "Searching for indirect done\n"
+#~ msgstr "indirectの検索完了\n"

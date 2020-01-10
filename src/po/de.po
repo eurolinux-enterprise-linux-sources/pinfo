@@ -1,0 +1,322 @@
+# German translation of pinfo
+# Christian Kurz <shorty@debian.org>, 1999.
+# with smaller changes from Matthias Friedrich <mafr@topmail.de>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pinfo-0.5.0\n"
+"Report-Msgid-Bugs-To: pinfo-devel@lists.alioth.debian.org\n"
+"POT-Creation-Date: 2006-03-16 17:28+0100\n"
+"PO-Revision-Date: 1999-04-21 01:50+0200\n"
+"Last-Translator: René van Bevern <rvb@pro-linux.de>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/filehandling_functions.c:469 src/filehandling_functions.c:476
+#, c-format
+msgid "Searching for indirect done"
+msgstr "Suche nach Knotenverzeichnis abgeschlossen."
+
+#: src/filehandling_functions.c:508 src/filehandling_functions.c:515
+#, c-format
+msgid "Warning: could not find tag table"
+msgstr "Warnung: Konnte die Tag-Tabelle nicht finden."
+
+#: src/filehandling_functions.c:542
+#, c-format
+msgid "Searching for tag table done\n"
+msgstr "Suche nach der Tag-Tabelle abgeschlossen.\n"
+
+#: src/filehandling_functions.c:1212
+#, fuzzy, c-format
+msgid "Error: could not open info file"
+msgstr "Fehler: Konnte die Info-Datei nicht öffnen."
+
+#: src/mainfunction.c:144 src/manual.c:975
+msgid "Are you sure you want to print?"
+msgstr "Wollen Sie wirklich drucken?"
+
+#: src/mainfunction.c:196 src/manual.c:1020
+msgid "Enter line: "
+msgstr "Bitte Zeilennummer eingeben: "
+
+#: src/mainfunction.c:237 src/manual.c:1067
+msgid "Enter command: "
+msgstr "Bitte Befehl eingeben: "
+
+#: src/mainfunction.c:256
+msgid "Operation failed..."
+msgstr "Funktion fehlgeschlagen..."
+
+#: src/mainfunction.c:292 src/mainfunction.c:554 src/manual.c:1120
+msgid "Enter regular expression: "
+msgstr "Bitte regulären Ausdruck eingeben: "
+
+#: src/mainfunction.c:524 src/mainfunction.c:622 src/manual.c:1198
+#, fuzzy
+msgid "Search string not found..."
+msgstr "Warnung: Konnte keine Tag-Tabelle finden...\n"
+
+#: src/mainfunction.c:581 src/manual.c:1155
+msgid "Invalid regular expression;"
+msgstr "Ungültiger regulärer Ausdruck;"
+
+#: src/mainfunction.c:583 src/manual.c:1157
+msgid "Press any key to continue..."
+msgstr "Beliebige Taste drücken, um fortzufahren..."
+
+#: src/mainfunction.c:651
+msgid "Enter node name: "
+msgstr "Bitte Knotennamen eingeben: "
+
+#: src/mainfunction.c:727
+#, c-format
+msgid "Node %s not found"
+msgstr "Knoten %s wurde nicht gefunden."
+
+#: src/mainfunction.c:1185 src/manual.c:1548
+msgid "Are you sure you want to quit?"
+msgstr "Sind Sie sicher, dass Sie pinfo beenden wollen?"
+
+#: src/manual.c:315
+#, c-format
+msgid "Error: Cannot call man command.\n"
+msgstr "Fehler: Kann 'man' nicht ausführen.\n"
+
+#: src/manual.c:324
+#, c-format
+msgid "Error: No manual page found either.\n"
+msgstr "Fehler: Es wurde auch keine Manpage gefunden.\n"
+
+#: src/manual.c:327
+#, fuzzy, c-format
+msgid "Apropos pages:\n"
+msgstr "Passende Seiten:\n"
+
+#: src/manual.c:370
+msgid "Calling gunzip for"
+msgstr "Rufe gunzip auf für"
+
+#: src/manual.c:376
+#, c-format
+msgid "Couldn't call gunzip.\n"
+msgstr "Konnte gunzip nicht ausführen.\n"
+
+#: src/manual.c:413
+msgid "IGNORING"
+msgstr "IGNORIERE"
+
+#: src/manual.c:456
+#, c-format
+msgid "Error: No manual page found\n"
+msgstr "Fehler: Es wurde keine Manpage gefunden.\n"
+
+#: src/manual.c:461
+#, c-format
+msgid "Calling apropos \n"
+msgstr "Rufe apropos auf \n"
+
+#: src/manual.c:466
+#, c-format
+msgid "Nothing appropiate\n"
+msgstr "Nichts entsprechendes gefunden.\n"
+
+#: src/manual.c:989
+msgid "Enter manual name: "
+msgstr "Bitte Manpage-Namen eingeben: "
+
+#: src/manual.c:1631 src/video.c:114
+#, c-format
+msgid "Viewing line %d/%d, %d%%"
+msgstr "Zeile %d/%d, %d%%"
+
+#: src/manual.c:1633 src/video.c:116
+#, c-format
+msgid "Viewing line %d/%d, 100%%"
+msgstr "Zeile %d/%d, 100%%"
+
+#: src/parse_config.c:113
+#, c-format
+msgid "Can't open config file!\n"
+msgstr "Kann Konfigurationsdatei nicht öffnen.\n"
+
+#: src/parse_config.c:163
+#, c-format
+msgid "Parse error in config file on line %d\n"
+msgstr "Die Konfigurationsdatei hat einen Fehler in Zeile %d\n"
+
+#: src/utils.c:122 src/utils.c:178
+#, c-format
+msgid "Virtual memory exhausted\n"
+msgstr "Virtueller Speicher aufgebraucht.\n"
+
+#: src/utils.c:232
+#, c-format
+msgid ""
+"Illegal characters in filename!\n"
+"*** %s\n"
+msgstr ""
+"Ungültiges Zeichen im Dateinamen.\n"
+"*** %s\n"
+
+#: src/utils.c:451
+msgid "yes"
+msgstr "ja"
+
+#: src/utils.c:452
+msgid "no"
+msgstr "nein"
+
+#: src/utils.c:720
+#, fuzzy, c-format
+msgid "Couldn't open temporary file\n"
+msgstr "Kann Konfigurationsdatei nicht öffnen.\n"
+
+#: src/video.c:61
+msgid "File:"
+msgstr "Datei:"
+
+#: src/video.c:62
+msgid "Node:"
+msgstr "Knoten:"
+
+#: src/video.c:63
+msgid "Next:"
+msgstr "nächstes Thema:"
+
+#: src/video.c:64
+msgid "Prev:"
+msgstr "vorheriges Thema:"
+
+#: src/video.c:65
+msgid "Up:"
+msgstr "Übergeordnet:"
+
+#: src/pinfo.c:113 src/pinfo.c:198
+#, c-format
+msgid "Looking for man page...\n"
+msgstr "Suche nach einer Manpage...\n"
+
+#: src/pinfo.c:151
+#, c-format
+msgid "--node option used without argument\n"
+msgstr "--node-Option ohne Argument benutzt\n"
+
+#: src/pinfo.c:161
+#, c-format
+msgid "--rcfile option used without argument\n"
+msgstr "--rcfile-Option ohne Argument benutzt\n"
+
+#: src/pinfo.c:172
+#, fuzzy, c-format
+msgid ""
+"Usage:\n"
+"%s [options] [info|manual]\n"
+"Options:\n"
+"-h, --help                            help\n"
+"-v, --version                         version\n"
+"-m, --manual                          use man page\n"
+"-r, --raw-filename                    use raw filename\n"
+"-f, --file                            synonym for -r\n"
+"-a, --apropos                         call apropos if nothing found\n"
+"-p, --plain-apropos                   call only apropos\n"
+"-c, --cut-man-headers                 cut out repeated man headers\n"
+"-l, --long-manual-links               use long link names in manuals\n"
+"-s, --squeeze-manlines                cut empty lines from manual pages\n"
+"-d, --dont-handle-without-tag-table   don't display texinfo pages without "
+"tag\n"
+"                                      tables\n"
+"-t, --force-manual-tag-table          force manual detection of tag table\n"
+"-x, --clear-at-exit                   clear screen at exit\n"
+"    --node=nodename, --node nodename  jump directly to the node nodename\n"
+"    --rcfile=file, --rcfile file      use alternate rcfile\n"
+msgstr ""
+"Verwendung:\n"
+"%s [optionen] [info|manual]\n"
+"Optionen:\n"
+"-h, --help                            Hilfe\n"
+"-v, --version                         Version\n"
+"-m, --manual                          Man-Page verwenden\n"
+"-r, --raw-filename                    rohen Dateinamen verwenden\n"
+"-f, --file                            synonym für -r\n"
+"-a, --apropos                         Apropos aufrufen, wenn nichts "
+"gefunden\n"
+"-p, --plain-apropos                   nur apropos aufrufen\n"
+"-c, --cut-man-headers                 wiederholte Man-Kopfzeilen entfernen\n"
+"-l, --long-manual-links               lange Linknamen in Man-Pages benutzen\n"
+"-s, --squeeze-manlines                leere Zeilen aus Man-Pages entfernen\n"
+"-d, --dont-handle-without-tag-table   keine Texinfo-Seiten ohne Tagtabellen\n"
+"                                      anzeigen\n"
+"-t, --force-manual-tag-table          Manuelles Auffinden der Tagtabelle\n"
+"                                      erzwingen\n"
+"-x, --clear-at-exit                   Schirm beim Verlassen löschen\n"
+"    --node=knoten, --node knoten      direkt zum Knoten 'knoten' springen\n"
+"    --rcfile=datei, --rcfile datei    alternative Konfigurationsdatei "
+"benutzen\n"
+
+#: src/pinfo.c:312
+#, c-format
+msgid "Error: could not open info file, trying manual\n"
+msgstr "Fehler: Info-Datei nicht gefunden, suche nach einer Manpage... \n"
+
+#: src/pinfo.c:345
+#, c-format
+msgid "Warning: tag table not found...\n"
+msgstr "Warnung: Konnte keine Tag-Tabelle finden...\n"
+
+#: src/pinfo.c:349
+#, c-format
+msgid "Trying to create alternate tag table...\n"
+msgstr "Versuche eine alternative Tag-Tabelle zu erstellen...\n"
+
+#: src/pinfo.c:354 src/pinfo.c:564
+#, c-format
+msgid "This doesn't look like info file...\n"
+msgstr "Dies scheint keine Info-Datei zu sein...\n"
+
+#: src/pinfo.c:367
+#, c-format
+msgid "Specified node does not exist...\n"
+msgstr "Angegebener Knoten existiert nicht...\n"
+
+#: src/pinfo.c:419
+msgid "Tag table is corrupt, trying to fix..."
+msgstr ""
+
+#: src/pinfo.c:420
+msgid "press a key to continue"
+msgstr "Beliebige Taste drücken, um fortzufahren"
+
+#: src/pinfo.c:486
+msgid "File not found. Press any key..."
+msgstr "Datei wurde nicht gefunden. Bitte drücken Sie eine Taste..."
+
+#: src/pinfo.c:506
+#, c-format
+msgid "Unexpected error.\n"
+msgstr "Unerwarteter Fehler.\n"
+
+#: src/pinfo.c:559
+msgid "Tag table not found. Trying to create alternate..."
+msgstr "Versuche eine alternative Tag-Tabelle zu erstellen..."
+
+#: src/pinfo.c:645
+#, c-format
+msgid "Security warning: Unable to get GID of group called: %s\n"
+msgstr "Sicherheitswarnung: Konnte GID der Gruppe %s nicht ermitteln.\n"
+
+#: src/pinfo.c:665
+#, c-format
+msgid "Security warning: Unable to get UID of user called: %s\n"
+msgstr "Sicherheitswarnung: Konnte UID des Benutzers %s nicht ermitteln.\n"
+
+#~ msgid "Are you sure to print?"
+#~ msgstr "Wollen Sie wirklich drucken?"
+
+#~ msgid "Warning: could not find tag table\n"
+#~ msgstr "Warnung: Konnte die Tag-Tabelle nicht finden.\n"
+
+#~ msgid "Searching for indirect done\n"
+#~ msgstr "Suche nach Node-Verzeichnis...\n"
