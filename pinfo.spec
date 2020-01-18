@@ -1,7 +1,7 @@
 Summary: An info file viewer
 Name: pinfo
 Version: 0.6.10
-Release: 7%{?dist}
+Release: 9%{?dist}
 Group: System Environment/Base
 License: GPLv2
 URL: http://pinfo.alioth.debian.org
@@ -77,6 +77,12 @@ fi
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.6.10-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.6.10-8
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.6.10-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
